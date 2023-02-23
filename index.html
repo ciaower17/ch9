@@ -20,7 +20,13 @@
 </head>
 
 <body>
-    <img class="bigbg" src="./images/pattern-background-desktop.svg" alt="">
+
+
+    <picture>
+        <source media="(max-width: 375px)" srcset="./images/pattern-background-mobile.svg">
+        <img class="bigbg" src="./images/pattern-background-desktop.svg" alt="">
+    </picture>
+
     <div class="big">
         <div class="up">
             <img class="img" src="./images/illustration-hero.svg" alt="">
