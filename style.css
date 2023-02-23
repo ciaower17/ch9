@@ -1,0 +1,144 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.bigbg {
+    position: absolute;
+    z-index: -1;
+}
+
+.big {
+    margin: auto;
+    max-width: 55vh;
+    height: 78vh;
+    background-color: white;
+    position: relative;
+    top: 15%;
+    border-radius: 20px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 19px 20px 0 0;
+}
+
+.down {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.para {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    top: 2px;
+}
+
+.pri {
+    background-color: hsl(0, 0%, 97%);
+    width: 75%;
+    border-radius: 12px;
+    margin: auto;
+    padding: 4%;
+}
+
+.annual {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.73rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    font-size: 0.66rem;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative;
+    top: 10px;
+}
+
+.g {
+    display: flex;
+}
+
+.price,
+.annual {
+    margin: 0;
+}
+
+.col {
+    position: relative;
+    right: 15%;
+}
+
+.btn {
+    width: 75%;
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.68rem;
+    font-weight: 700;
+    height: 10%;
+    background-color: hsl(245, 75%, 52%);
+    border-width: 0;
+}
+
+.cancel {
+    margin-top: 1.5rem;
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+}
+
+@media (max-width:500px) {
+    .big {
+        margin: auto;
+        max-width: 45vh;
+        height: 78vh;
+        background-color: white;
+        position: relative;
+        top: 15%;
+        border-radius: 20px;
+    }
+    .pri {
+        background-color: hsl(0, 0%, 97%);
+        width: 85%;
+        border-radius: 12px;
+        margin: auto;
+        padding: 4%;
+    }
+    .col {
+        position: relative;
+        right: 12%;
+    }
+}
